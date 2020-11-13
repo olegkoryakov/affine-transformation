@@ -16,6 +16,12 @@
     ],
     "rules": {
         "linebreak-style": 0,
+        "no-unused-vars": [
+            2,
+            {
+                "args": "none"
+            }
+        ],
         "import/extensions": [
             "error",
             "ignorePackages",
