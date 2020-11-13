@@ -25,6 +25,7 @@ const baseConfig = {
         include: path.join(__dirname, '../src'),
         use: [
           'babel-loader',
+          'eslint-loader',
         ],
       },
       {
@@ -35,8 +36,8 @@ const baseConfig = {
           'css-loader',
           'sass-loader',
         ],
-      }
-    ]
+      },
+    ],
   },
   plugins: [
     new MiniCssExtractPlugin({
@@ -45,7 +46,7 @@ const baseConfig = {
     new HTMLWebpackPlugin({
       template: path.resolve(__dirname, '../src/index.html'),
     }),
-  ]
-}
+  ],
+};
 
 module.exports = baseConfig;
