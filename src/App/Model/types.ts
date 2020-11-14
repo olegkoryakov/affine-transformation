@@ -1,3 +1,5 @@
+import { IObserver } from '../Observer/types';
+
 export interface IPoint {
   x: number,
   y: number,
@@ -18,7 +20,7 @@ export interface IState {
   points: TPoints,
 }
 
-export interface IModel {
+export interface IModel extends IObserver {
   getState(): IState,
   setState(state: Partial<IState>): void,
 }
