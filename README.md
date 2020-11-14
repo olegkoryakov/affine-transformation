@@ -9,4 +9,4 @@
   * масштабирование
   * поворот
 ## Demo-page:
-  [CLICK ME!](https://olegkoryakov.github.io/affine-transformation)
+  [CLICK ME!](https://olegkoryakov.github.io/affine-transformation/)
