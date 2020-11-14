@@ -30,6 +30,7 @@ export default class View {
     this.figure = new Figure(this.canvas, this.ctx);
 
     this.wrapper.append(this.canvas);
+    this.wrapper.classList.add('app');
 
     this.root.append(this.wrapper);
   }

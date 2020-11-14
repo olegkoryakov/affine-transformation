@@ -2,6 +2,15 @@ body {
   margin: 0;
 }
 .affine-transformation {
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__controls {
+    margin-bottom: 20px;
+  }
+
   &__graph {
     margin: 0 auto;
     width: 700px;

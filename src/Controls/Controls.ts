@@ -1,4 +1,5 @@
 import { IApp, IOptions } from '../App/types';
+import './controls.scss';
 
 export default class Controls {
   constructor(controlsElement: HTMLElement, app: IApp) {
