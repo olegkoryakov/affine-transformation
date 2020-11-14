@@ -1,4 +1,3 @@
-import scaleMatrix from '../../utils/scaleMatrix';
 import { IState } from '../Model/types';
 import { ICoordAxes, IFigure } from './types';
 import CoordAxes from './CoordAxes';
@@ -50,6 +49,6 @@ export default class View {
     this.canvas.height = offsetHeight;
 
     this.coordAxes.drawAxes(xRange, yRange);
-    this.figure.drawFigure(xRange, yRange, scaleMatrix(points, 1, 1));
+    this.figure.drawFigure(xRange, yRange, points);
   }
 }
